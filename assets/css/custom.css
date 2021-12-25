@@ -1,0 +1,44 @@
+/*--------------Custom html tags---------------*/
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    color: unset;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------custom owl carousel----------*/
+.owl-carousel .owl-stage-outer {
+    height: 444px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: #c1875e;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #c1875e;
+    opacity: 0.8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #c1875e;
+    opacity: 1 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #c1875e;
+    opacity: 0.7;
+}

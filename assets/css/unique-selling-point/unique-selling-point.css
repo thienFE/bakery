@@ -1,0 +1,66 @@
+.uniqueSelling-point {
+    background-image: url('/assets/images/bg-img/bg-image2.jpg');
+    background-repeat: no-repeat;
+    padding: 48px 0;
+    margin-top: 56px;
+    height: max-content;
+}
+
+.uniqueSelling-point .box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uniqueSelling-point .desc-board {
+    width: 670px;
+    height: fit-content;
+    background-color: var(--bs-white);
+    padding: 52px;
+    margin-right: 28px;
+}
+
+.desc-board .heading {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Kaushan Script', cursive;
+    color: var(--primary-color);
+}
+
+.desc-board .sub-heading {
+    margin-top: 20px;
+    font-size: 15px;
+    opacity: 0.4;
+    font-weight: 500;
+}
+
+.desc-board .list {
+    margin-top: 40px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.desc-board .list-item {
+    font-weight: 500;
+    padding: 12px 0;
+    font-size: 15px;
+    border-top: 1px solid #f5f5f5;
+}
+
+.desc-board .read-more {
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--bs-white);
+    transition: background-color 0.1s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 44px;
+    margin-top: 48px;
+}
+
+.desc-board .read-more:hover {
+    background-color: var(--primary-color-2);
+}

@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .manu {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .manu img {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 320px) {
+    .manu .page-container {
+        justify-content: center;
+    }
+}

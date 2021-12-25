@@ -1,0 +1,239 @@
+/*--------small mobile device--------*/
+@media (max-width: 280px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .logo {
+        margin: 12px 0 24px 0;
+    }
+
+    .header .nav-and-tools {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .header .search-zone p {
+        font-size: 12px;
+    }
+
+    .header .search-zone .wrap span i {
+        font-size: 12px;
+    }
+
+    .header .search-zone .input-wrap input{
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .header .navigation ul {
+        display: none;
+    }
+
+    .header .navigation .menu-block {
+        display: block;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .logo {
+        margin: 12px 0 24px 0;
+    }
+
+    .header .nav-and-tools {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .header .nav-leftSide .nav-list {
+        width: 198px;
+    }
+
+    .header .navigation .menu-block {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .header .right .shopping-cart .icon {
+        padding: 4px 8px;
+    }
+
+    .header .navigation .menu-block i {
+        font-size: 12px;
+    }
+
+    .header .search-zone {
+        height: 160px;
+    }
+
+    .header .search-zone p {
+        font-size: 12px;
+        padding: 0 24px;
+    }
+
+    .header .search-zone .wrap span i {
+        padding: 24px;
+    }
+
+    .header .search-zone .input-wrap {
+        margin: 0 24px;
+        padding: 16px 0 8px 0;
+    }
+
+    .header .search-zone .input-wrap input{
+        font-size: 14px;
+    }
+
+    .header .search-zone .input-wrap i {
+        font-size: 20px;
+    }
+
+    .marginLeft-to-slideNav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        -webkit-overflow-scrolling: hidden;
+    }
+
+    .shopping-cart .cart-details {
+        width: 248px;
+    }
+
+    .shopping-cart .info-bonus-detail {
+        width: 246px;
+    }
+}
+
+/*--------medium mobile device--------*/
+@media (min-width: 321px) and (max-width: 575px) {
+    .header .navigation ul {
+        display: none;
+    }
+
+    .header .navigation .menu-block {
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .nav-and-tools {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .header .logo {
+        margin: 12px 0 24px 0;
+    }
+
+    .header .search-zone p {
+        padding: 0 24px;
+        font-size: 14px;
+    }
+
+    .header .search-zone .wrap span i {
+        padding: 24px;
+    }
+
+    .header .search-zone .input-wrap {
+        margin: 0 24px;
+        padding: 16px 0 8px 0;
+    }
+
+    .header .search-zone .input-wrap input{
+        font-size: 18px;
+    }
+
+    .header .search-zone .input-wrap i {
+        font-size: 20px;
+    }
+
+    .marginLeft-to-slideNav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+/*--------large mobile device--------*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .header .navigation ul {
+        display: none;
+    }
+
+    .header .navigation .menu-block {
+        display: block;
+    }
+
+    .header .search-zone {
+        padding: 16px 24px 8px 24px;
+    }
+
+    .header .search-zone .input-wrap input {
+        font-size: 20px;
+    }
+
+    .marginLeft-to-slideNav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+/*--------tablet--------*/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header .logo {
+        margin-right: 100px;
+    }
+
+    .header .navigation ul {
+        display: none;
+    }
+
+    .header .navigation .menu-block {
+        display: block;
+    }
+        
+    .marginLeft-to-slideNav {
+        margin-left: 240px;
+        transition: margin-left 0.3s linear;
+        position: fixed;
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    .header .search-zone .wrap {
+        padding: 36px;
+    }
+
+    .header .search-zone .input-wrap input {
+        font-size: 24px;
+    }
+
+    .header .search-zone .input-wrap i {
+        font-size: 22px;
+    }
+}
+
+/*--------large tablet and PC--------*/
+@media (min-width: 1024px) {
+    .header .nav-leftSide {
+        display: none;
+    }
+    .overlay-tablet-andBelow {
+        display: none;
+    }
+}

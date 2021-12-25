@@ -1,0 +1,15 @@
+@media (max-width: 1023px) {
+    .uniqueSelling-point .image {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .uniqueSelling-point .desc-board {
+        margin: 0 16px;
+        padding: 24px;
+    }
+    .uniqueSelling-point .wrapper {
+        margin: 0;
+    }
+}

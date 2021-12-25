@@ -1,0 +1,213 @@
+.our-product {
+    padding-top: 25%;
+    background-image: url('/assets/images/homepage/Homepage1_04.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.our-product.hot-products {
+    background-image: unset;
+    padding-top: 18%;
+}
+
+.our-product .intro {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.our-product .heading {
+    position: absolute;
+    top: 96px;
+    background-color: unset;
+    color: #222;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 48px;
+    width: max-content;
+}
+
+.our-product .desc {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.4;
+    position: absolute;
+    top: 192px;
+    font-style: italic;
+}
+
+.our-product .navigation {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.9;
+    position: absolute;
+    top: 244px;
+}
+
+.our-product .nav-item {
+    margin: 0 12px;
+}
+
+.our-product .nav-item:hover {
+    color: var(--primary-color);
+    opacity: 0.8;
+}
+
+.our-product span {
+    font-size: 18px;
+}
+
+.our-product .products {
+    width: 100vw;
+}
+
+.our-product .products .products-img {
+    display: block;
+    margin: 0;
+    padding-top: 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.our-product .products .quick-view {
+    font-size: 24px;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: var(--bs-white);
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s linear;
+    transition: all 0.2s linear;
+}
+
+.our-product .products .quick-view:hover {
+    background-color: var(--primary-color-2);
+    color: var(--bs-white);
+}
+
+.our-product .products .quick-view:hover .tag {
+    display: block;
+    right: calc(100% + 6px);
+}
+
+@keyframes tag-slide {
+    from {
+        right: 50%;
+    }
+    to {
+        right: calc(100% + 6px);
+    }
+}
+
+.our-product .quick-view .tag {
+    position: absolute;
+    font-size: 14px;
+    width: max-content;
+    background-color: #333;
+    color: var(--bs-white);
+    padding: 0 6px 2px;
+    border-radius: 4px;
+    display: none;
+    animation: fadeIn 0.4s linear, tag-slide 0.2s linear;
+}
+
+.our-product .quick-view .tag::after {
+    position: absolute;
+    content: "";
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent transparent #333;
+    top: 50%;
+    right: 0;
+    transform: translateX(100%) translateY(-50%);
+}
+
+.our-product .products .overlay {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.3s linear;
+}
+
+.our-product .products .condition {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.our-product .condition .on-sale {
+    font-size: 14px;
+    color: #d9534f;
+}
+
+.our-product .condition .status {
+    font-size: 14px;
+    color: #77c66d;
+}
+
+.our-product .products .products-name{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 12px;
+    opacity: 0.9;
+}
+
+.our-product .products .products-name:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.our-product .products .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    animation: fadeIn 0.2s linear;
+}
+
+.our-product .products .addToCart-btn {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 14px 0;
+    font-size: 13px;
+    font-weight: 500;
+    animation: fadeIn 0.3s linear;
+    transform: translateY(20px);
+}
+
+.our-product .products .addToCart-btn:hover {
+    background-color: var(--primary-color-2);
+    color: var(--bs-white);
+    transition: all 0.2s linear;
+}
+
+.rating {
+    font-size: 12px;
+    color: #d8d8d8;
+}
+
+.rating i.active {
+    color: #fcb02b;
+}
+
+.cost {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color-2);
+}
+

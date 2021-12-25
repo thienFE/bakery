@@ -1,0 +1,108 @@
+* {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.app {
+    transition: margin-left 0.3s linear;
+}
+
+:root {
+    --primary-text-color: #222;
+    --primary-text-bland-color: #666;
+    --primary-color: #c39a3f;
+    --primary-color-2: #c1875e;
+    --header-height: 120px;
+}
+
+.page-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 576px) {
+    .page-container {
+        max-width: 544px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-container {
+        max-width: 734px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-container {
+        max-width: 992px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page-container {
+        max-width: 1150px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn-reverse {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        top: calc(100% + 8px);
+    }
+    to {
+        top: 100%
+    }
+} 
+
+@keyframes bloomX {
+    from {
+        width: 0;
+    }
+    to {
+        width: 96%;
+    }
+}
+
+@keyframes bloomY {
+    from {
+        height: 0;
+    }
+    to {
+        height:  96%;
+    }
+}
+
+
+.hide {
+    display: none !important;
+}
+
+.fixed {
+    position: fixed !important;
+}
+
+.display {
+    display: block !important;
+}
+
+
+
+
+

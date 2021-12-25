@@ -1,0 +1,82 @@
+.product-col {
+    display: flex;
+}
+
+.product-component {
+    flex-basis: 50%;
+    margin-right: 28px;
+}
+
+.product-component .heading-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.product-component .heading {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    position: relative;
+    flex-basis: 42%;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #ebebeb;
+    display: inline-block;
+    flex-basis: 58%;
+}
+
+.product-component .wrapper {
+    display: flex;
+    margin-top: 36px;
+}
+
+.product-component .box-left {
+    flex-basis: 50%;
+    overflow: hidden;
+    margin-right: 16px;
+    position: relative;
+}
+
+.product-component .product-wrapper {
+    flex-basis: 50%;
+}
+
+.product-wrapper .item {
+    display: flex;
+    margin: 0 16px;
+}
+
+.item.mgt-18 {
+    margin: 18px 16px;
+}
+
+.product-wrapper .item > a {
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.product-wrapper .item img {
+    transition: transform 0.2s linear;
+    width: 100%;
+    height: 100%;
+}
+
+.product-wrapper .item img:hover {
+    transform: scale(1.2);
+}
+
+.product-wrapper .item .info {
+    margin: 16px;
+    font-weight: 500;
+}
+
+.item .info .name:hover {
+    color: var(--primary-color);
+}
+
+.item .info .rating {
+    margin: 8px 0;
+}

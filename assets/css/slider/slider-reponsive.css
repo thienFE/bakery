@@ -1,0 +1,43 @@
+/*--------small mobile device--------*/
+@media (max-width: 320px) {
+    .wrapper {
+        margin-top: 42px;
+    }
+    .slogan .heading {
+        font-size: 36px;
+    }
+    .slogan .desc {
+        font-size: 10px;
+        margin-top: -24px;
+        width: max-content;
+    }
+    .indicators {
+        display: none;
+    }
+    .arrow {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/*--------medium mobile device--------*/
+@media (min-width: 321px) and (max-width: 575px) {
+    .wrapper {
+        margin-top: 57px;
+    }
+    .slogan .heading {
+        font-size: 40px;
+    }
+    .slogan .desc {
+        font-size: 11px;
+        margin-top: -24px;
+        width: max-content;
+    }
+    .indicators {
+        display: none;
+    }
+    .arrow {
+        width: 18px;
+        height: 18px;
+    }
+}

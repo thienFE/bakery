@@ -1,0 +1,44 @@
+@media (min-width: 1021px) and (max-width: 1183px){ 
+    .about-us .box {
+        height: fit-content;
+    }
+    .about-us .introduction-post {
+        margin: 80px 80px 0;
+    }
+    .box-right .read-more {
+        margin: 48px 80px 0;
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .about-us .box {
+        flex-direction: column;
+    }
+    .about-us .box-left {
+        flex: 1;
+    }
+    .about-us .box-left img {
+        width: 100%;
+    }
+    .about-us .box-right {
+        flex: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-us {
+        margin-top: 0;
+    }
+    .about-us .box-left {
+        margin-top: -24px;;
+    }
+    .about-us .introduction-post {
+        margin: 40px 40px 0;
+    }
+    .box-right .read-more {
+        margin: 24px 40px 24px;
+        padding: 6px 20px;
+    }
+}

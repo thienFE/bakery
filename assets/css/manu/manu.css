@@ -1,0 +1,22 @@
+.manu {
+    border-top: 1px solid #ebebeb;
+    margin: 120px 0 64px 0;
+    padding: 18px;
+}
+
+.manu .page-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.manu img {
+    opacity: 0.6;
+    transition: all 0.2s linear;
+}
+
+.manu img:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.1);
+}

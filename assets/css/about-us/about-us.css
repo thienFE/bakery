@@ -1,0 +1,152 @@
+.about-us {
+    margin-top: 80px;
+}
+
+.about-us .heading {
+    text-align: center;
+}
+
+.about-us .text-heading {
+    font-size: 48px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.about-us .desc-heading {
+    opacity: 0.4;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.about-us .box {
+    margin-top: 64px;
+    display: flex;
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.box-left {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+}
+
+.box-left a {
+    display: block;
+    height: 100%;
+}
+
+.box-left img {
+    transition: all 0.4s linear;
+    width: 100%;
+    height: 100%;
+}
+
+
+.frame .line-top,
+.frame .line-bottom {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 96%;
+    height: 1px;
+    background-color: var(--bs-white);
+    animation: bloomX 0.3s linear;
+    display: none;
+}
+
+.frame .line-top.modify,
+.frame .line-bottom.modify {
+    width: calc(100% - 20px);
+}
+
+.frame .line-right,
+.frame .line-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 96%;
+    background-color: var(--bs-white);
+    animation: bloomY 0.3s linear;
+    display: none;
+}
+
+.frame .line-right.modify,
+.frame .line-left.modify {
+    height: calc(100% - 20px);
+}
+
+.frame .line-top {
+    top: 2%;
+}
+
+.frame .line-top.modify {
+    top: 10px;
+}
+
+.frame .line-right {
+    right: 2%;
+}
+
+.frame .line-right.modify {
+    right: 10px;
+}
+
+.frame .line-bottom {
+    bottom: 2%;
+}
+
+.frame .line-bottom.modify {
+    bottom: 10px;
+}
+
+.frame .line-left {
+    left: 2%;
+}
+
+.frame .line-left.modify {
+    left: 9px;
+}
+
+.box-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.about-us .introduction-post {
+    display: flex;
+    flex-direction: column;
+    margin: 84px 86px 56px;
+}
+
+.introduction-post .title {
+    font-weight: 700;
+}
+
+.introduction-post .paragraph {
+    margin-top: 18px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.box-right .read-more {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-style: 20px;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    padding: 10px 40px;
+    transition: all 0.2s linear;
+    margin-left: 86px;
+    margin-bottom: 64px;
+}
+
+.box-right .read-more:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--bs-white);
+}
+
